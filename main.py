@@ -17,10 +17,7 @@ def adicionar_valor(opcao):
     else:
         tipo = "despesa"
 
-    dados = []
-    dados.append(titulo)
-    dados.append(valor)
-    dados.append(tipo)              
+    dados = [titulo, valor, tipo]             
 
     return dados
 
